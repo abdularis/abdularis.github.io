@@ -7,10 +7,11 @@
     {%- assign __locale = site.data.locale.EMAIL_ME -%}
     {%- include snippets/locale-to-string.html -%}
     {%- if site.author.email -%}
-      <li title="{{ __return }}">
+    <li title="{{ __return }}">
       <a class="button button--circle mail-button" itemprop="sameAs" href="mailto:{{ site.author.email }}" target="_blank">
         <i class="fas fa-envelope"></i>
       </a>
+    </li>
     {%- endif -%}
     {%- assign __locale = site.data.locale.FOLLOW_ME -%}
     {%- include snippets/locale-to-string.html -%}

@@ -1,7 +1,9 @@
 
 <div class="footer js-page-footer">
   <div class="main">
-    <aside> {%- include follow-me.html -%} </aside>
+    {%- if page.no-footer-contact == nil -%}
+      <aside> {%- include follow-me.html -%} </aside>
+    {%- endif -%}
     <footer class="site-info">
       {%- assign __path = site.paths.rss | default: site.data.variables.default.paths.rss -%}
       {%- include snippets/get-nav-url.html -%}

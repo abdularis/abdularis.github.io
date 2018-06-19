@@ -1,13 +1,16 @@
 header:
   - titles:
-      en:       Archive
-      zh:       归档
-      zh-Hans:  归档
-      zh-Hant:  歸檔
-    url:        /archive.html
+      en: Home
+    url: /
   - titles:
-      en:       About
-      zh:       关于
-      zh-Hans:  关于
-      zh-Hant:  關於
-    url:        /about.html
+      en: Apps/Code
+    url: /apps
+  - titles:
+      en: Posts
+    url: /blog/index.html
+  - titles:
+      en: Archives
+    url: /archives
+  - titles: 
+      en: Github
+    url: https://github.com/abdularis

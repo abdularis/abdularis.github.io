@@ -30,6 +30,10 @@
   @include menu();
 }
 
+.menu-md-gap {
+  @include menu(3);
+}
+
 .menu--center {
   @include justify-content(center);
 }
