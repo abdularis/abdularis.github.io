@@ -7,21 +7,24 @@ tags: Android Java Custom-View
 comments: true
 ---
 
-Hello good evening, good morning, good afternoon everybody depending on where you are in the world.
-This is my first article in english :), today I’m gonna show you how to write a custom view, which is circle image view, this is how it looks like
+Hello, *this is my first post in english :smile: :clap:*, todays post is about writing a custom android view, which is circle image view.
+
+The end result of this custom view would be something like in the below figure:
 
 ![fig1](/assets/images/civ/fig.gif){:.rounded}
 
 <!--more-->
 
-If you wanna see the full projet go to my github repo [https://github.com/abdularis/CircularImageView](https://github.com/abdularis/CircularImageView)
+> If you just want to use the library go to the github repo and read the usage instructions.
+> It is available [here](https://github.com/abdularis/CircularImageView)
+
 This circle image view will have:
 * Border drawn around the circle
 * Highlight the circle when touched
 * The image would be scaled, cropped and centered automatically
 * Touch event only happened when we touched inside the circle
 
-## See The Whole Codes
+## The Whole Class Codes
 Before we start, I want to show you the whole code first (see the github repo also), I might not explain all line by line you could understand it better by your self, in this article i'll explain the key things that I think important
 {% highlight java %}
 public class CircleImageView extends ImageView {
@@ -293,8 +296,7 @@ public class CircleImageView extends ImageView {
 }
 {% endhighlight %}
 
-## Let's Break It Down!
-### Define Custom View
+### Define custom view
 Extend the `ImageView` class and define some fields to store the state and necessary things for drawing (rendering), also implement the required constructors. `CircleImageView(Context context)` constructor is the default constructor could be used when instantiating view programmatically, the second one used when we define view in the xml layout file.
 {% highlight java %}
 public class CircleImageView extends ImageView {
@@ -308,7 +310,7 @@ public class CircleImageView extends ImageView {
 }
 {% endhighlight %}
 
-### Define XML Attributes
+### Define XML attributes
 We need to specify what property we want to be able to customize using xml attributes, in this case we want to change stroke (border) color, set its width, enable/disable circle hightlight and specify the highlight color.
 ~~~xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -321,7 +323,7 @@ We need to specify what property we want to be able to customize using xml attri
     </declare-styleable>
 </resources>
 ~~~
-## Define Fields
+### Define fields
 Declare member fields that we will be working with globally in the class
 {% highlight java %}
 public class CircleImageView extends ImageView {
@@ -348,9 +350,9 @@ public class CircleImageView extends ImageView {
 }
 {% endhighlight %}
 
-## Initialize Fields
+### Initialize fields
 Initialize all fields we have defined above in the second contructor, when we specify this view attributes in xml layout file this constructor would be called with the AttributeSet parameter containing those xml attributes.
-We first check if the AttributeSet is not null, if true then query all defined attributes.
+First check if the AttributeSet is not null, if true then query all defined attributes.
 {% highlight java %}
 public class CircleImageView extends ImageView {
 
@@ -397,13 +399,13 @@ public class CircleImageView extends ImageView {
 }
 {% endhighlight %}
 
-> we'll implement/explain `setupBitmap()` later
+> I'll implement/explain `setupBitmap()` later
 
 we want to initialize/prepare bitmap when it was set before using xml attribute of the `ImageView` by calling `setupBitmap()`.
 we call `super(context, attrs)` above so bitmap could already been made available by `ImageView` when we call `setupBitmap()`.
 
-### Preparing Bitmap
-Before we drawing (rendering) let's prepare the bitmap and get ready to draw. `getBitmapFromDrawable(Drawable drawable)` method is responsible for converting the drawable into a `Bitmap`.
+### Preparing bitmap
+Before drawing (rendering) it needs to prepare the bitmap and get ready to draw. `getBitmapFromDrawable(Drawable drawable)` method is responsible for converting the drawable into a `Bitmap`.
 If the drawable is instance of `BitmapDrawable` cast it to Bitmap an return, if not we create bitmap ourselves and copy the drawable image content by using `Canvas` with the bitmap to draw into, finally draw drawable using `drawable.draw(canvas)` then return the bitmap.
 {% highlight java %}
 public class CircleImageView extends ImageView {
@@ -433,7 +435,7 @@ public class CircleImageView extends ImageView {
 }
 {% endhighlight %}
 
-Let's implement methods to update the rectangle bounds where the circle would be drawn. `updateCircleDrawBounds(RectF bounds)` and call it in `onSizeChanged()` (we'll update bounds when size of this view changed)
+Implement methods to update the rectangle bounds where the circle would be drawn. `updateCircleDrawBounds(RectF bounds)` and call it in `onSizeChanged()` (we'll update bounds when size of this view changed)
 {% highlight java %}
 public class CircleImageView extends ImageView {
 
@@ -501,7 +503,7 @@ public class CircleImageView extends ImageView {
 
 > Notice we use `updateBitmapSize()` method, let's implement it
 
-This method used to resize (scale up/down) the bitmap in the `BitmapShader` based on the size of view while maintaining aspect ratio of bitmap. We use `Matrix` to transform (scale and translation) bitmap. This will a little bit more involved.
+This method is used to resize (scale up/down) the bitmap in the `BitmapShader` based on the size of view while maintaining aspect ratio of bitmap. We use `Matrix` to transform (scale and translation) bitmap. This will a little bit more involved.
 > More explanation is in the code
 
 {% highlight java %}
@@ -555,7 +557,7 @@ public class CircleImageView extends ImageView {
 {% endhighlight %}
 
 ### Drawing
-At this point so far we are ready to do some drawing :), and the code also straighforward, so let's do that
+At this point so far we are ready to do some drawing :). The code is straighforward, so let's do that
 {% highlight java %}
 public class CircleImageView extends ImageView {
 
@@ -594,7 +596,7 @@ public class CircleImageView extends ImageView {
 {% endhighlight %}
 Override `onDraw()` method, it'll be called automatically by the framework when we call `invalidate()` or when it needs to be redrawn.
 
-### Touch Event
+### Touch event
 Override `onTouchEvent()` method to receive events when view is touched.
 {% highlight java %}
 public class CircleImageView extends ImageView {
