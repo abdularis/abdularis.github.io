@@ -10,7 +10,7 @@ comments: true
 Hello good evening, good morning, good afternoon everybody depending on where you are in the world.
 This is my first article in english :), today I’m gonna show you how to write a custom view, which is circle image view, this is how it looks like
 
-![fig1](/assets/images/civ/fig.gif){:.rounded .center}
+![fig1](/assets/images/civ/fig.gif){:.rounded}
 
 <!--more-->
 

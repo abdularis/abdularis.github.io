@@ -158,11 +158,11 @@ if (imageWidth * viewHeight < viewWidth * imageHeight) {
 
 For example we have image 8x8 and view 6x5, and it turns out when we scale the image down to fit the size of view, there is an invisible area of image left, that means we can translate this area up & down
 
-![vis1](/assets/images/seiv/vis1.png){:.border.shadow}
+![vis1](/assets/images/seiv/vis1.png){:.border.shadow.center}
 
 But when the aspect ratio of view is more portrait (tall) we don't have any invisible area, instead there is blank area inside a view (which is not what we want)
 
-![vis2](/assets/images/seiv/vis2.png){:.border.shadow}
+![vis2](/assets/images/seiv/vis2.png){:.border.shadow.center}
 
 ## Writing Horizontal Parallax Effect
 
