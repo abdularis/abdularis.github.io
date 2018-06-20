@@ -7,7 +7,7 @@ $base: (
   font-size-xl:           1.6rem,
   font-size-lg:           1.25rem,
   font-size:              1rem,
-  font-size-sm:           .875rem,
+  font-size-sm:           .8rem,
   font-size-xs:           .75rem,
 
   font-size-h1-lg:        3rem,
@@ -100,10 +100,10 @@ $button: (
   padding-x-lg:           1.2rem,
 
   padding-y:              .1rem,
-  padding-x:              .55rem,
+  padding-x:              .66rem,
 
   padding-y-sm:           .06rem,
-  padding-x-sm:           .35rem,
+  padding-x-sm:           .5rem,
 
   font-weight:            map-get($base, font-weight-bold),
 
