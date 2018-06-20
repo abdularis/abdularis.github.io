@@ -3,6 +3,7 @@ layout: article
 titles:
   en: Blog
 show_title: false
+permalink: me
 no-footer-contact: true
 ---
 

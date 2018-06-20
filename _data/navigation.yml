@@ -3,11 +3,11 @@ header:
       en: Home
     url: /
   - titles:
-      en: Apps/Code
-    url: /apps
+      en: Me
+    url: /me
   - titles:
-      en: Posts
-    url: /blog/index.html
+      en: Projects
+    url: /projects
   - titles:
       en: Archives
     url: /archives
