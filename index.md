@@ -9,7 +9,7 @@ no-footer-contact: true
 <style type="text/css">
 .describe {
   display: block;
-  padding: 10px;
+  padding: 1em;
   background: #ECEFF1;
   text-align: justify;
   border-radius: 0.2em;
@@ -30,13 +30,13 @@ no-footer-contact: true
 
 ![](assets/images/profile-small.jpg){:.circle .border .shadow .center width="170px" height="170px"}
 
-## He's Abdul Aris
+## Me
 
 <p class="describe">
-Programmer Monkey - Some friends call him 'dul', 'ris' or 'aris', He is a Computer Science Student, focusing on software engineering, very interested in Android Development, using Java & Kotlin as primary programming language, trying to learn more & stay current on those area, have built some apps and/or libraries, published and/or open sourced. Have experienced building a backend service for app using Python (flask), and besides that Machine Learning is an interesting topic he trying to learn.
+Hi, my name is Abdul Aris R., A computer science student, focused on Android App Development using Java, Kotlin & Python as primary programming languages, have built some personal open source and closed source app projects.
 </p>
 
-## Contacts
+## Online
 
 
 <ul class="contact-list">
