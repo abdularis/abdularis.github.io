@@ -4,13 +4,13 @@ header:
     url: /
   - titles:
       en: Me
-    url: /me
+    url: /me.html
   - titles:
       en: Projects
-    url: /projects
+    url: /projects.html
   - titles:
       en: Archives
-    url: /archives
+    url: /archive.html
   - titles: 
       en: Github
     url: https://github.com/abdularis
