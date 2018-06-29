@@ -138,7 +138,7 @@ class BoardEvaluator {
 Ini merupakan implementasi basic yang tidak memiliki *tuning* apaput, misalkan bisa saja ditambahkan parameter *depth* untuk menghitung atau membatasi kedalaman traversal tree yang dilakukan dsb. Algoritma ini memang cukup membingungkan pertama kali dan memang cukup sulit untuk di*debug* atau di*trace* karena pemanggilan fungsi yang rekursif dengan jumlah yang cukup besar.
 
 ```kotlin
-class TicTacToeAi(val maxPlayer: Int, val minPlayer: Int) {
+class GameAi(val maxPlayer: Int, val minPlayer: Int) {
 
     fun findBestMove(board: Board, player: Int): Move = minimax(board, player)
 
