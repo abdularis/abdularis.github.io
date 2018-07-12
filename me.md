@@ -33,7 +33,7 @@ no-footer-contact: true
 ## Me
 
 <p class="describe">
-Hi, my name is Abdul Aris R., A computer science student, focused on Android App Development using Java, Kotlin & Python as primary programming languages, have built some personal open source and closed source app projects.
+Hi, my name is Abdul Aris Rahmanudin, a computer science student, focused on android app development using java, kotlin & python as primary programming languages, have built some personal open source and closed source app projects.
 </p>
 
 ## Online
