@@ -1,8 +1,10 @@
 ---
+title: Implement Launch Screen/Splash Screen for Android App - The Right Way
+date: 2018-06-23 00:00:00 Z
+tags:
+- Android
 layout: article
-title: "Implement Launch Screen/Splash Screen for Android App - The Right Way"
 key: 
-tags: Android
 comments: true
 ---
 

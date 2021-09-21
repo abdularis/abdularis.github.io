@@ -1,8 +1,10 @@
 ---
+title: Save and Restore ScrollView and RecyclerView Scroll Position in Android
+date: 2018-06-21 00:00:00 Z
+tags:
+- Android
 layout: article
-title: "Save and Restore ScrollView and RecyclerView Scroll Position in Android"
 key: 201806211
-tags: Android
 comments: true
 ---
 

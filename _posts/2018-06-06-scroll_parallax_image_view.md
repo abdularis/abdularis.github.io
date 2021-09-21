@@ -1,8 +1,12 @@
 ---
+title: 'Android Custom View Tutorial: Scroll Parallax Image View'
+date: 2018-06-06 00:00:00 Z
+tags:
+- Android
+- Kotlin
+- Custom-View
 layout: article
-title: "Android Custom View Tutorial: Scroll Parallax Image View"
 key: 201806062
-tags: Android Kotlin Custom-View
 ---
 
 Welcome back, now I want to explain about how to create a parallax effect for ImageView when it's being scrolled. Before we go any further let's see how it's gonna be.

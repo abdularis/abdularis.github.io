@@ -1,8 +1,12 @@
 ---
+title: How Asset/Vehicle Tracking App Works? - In a Nutshell
+date: 2018-03-18 00:00:00 Z
+tags:
+- Android
+- GPS
+- Location
 layout: article
-title: "How Asset/Vehicle Tracking App Works? - In a Nutshell"
 key: 201803181
-tags: Android GPS Location 
 comments: true
 ---
 

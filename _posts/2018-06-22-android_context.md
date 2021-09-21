@@ -1,8 +1,11 @@
 ---
+title: Mengenal dan Memahami Context pada Android
+date: 2018-06-22 00:00:00 Z
+tags:
+- Android
+- Context
 layout: article
-title: "Mengenal dan Memahami Context pada Android"
 key: 201806221
-tags: Android Context 
 comments: true
 ---
 

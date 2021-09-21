@@ -1,8 +1,12 @@
 ---
+title: Extending Circle Image View to Create Circle Avatar Image View
+date: 2018-06-20 00:00:00 Z
+tags:
+- Android
+- Java
+- Custom-View
 layout: article
-title: "Extending Circle Image View to Create Circle Avatar Image View"
 key: 20180620
-tags: Android Java Custom-View
 comments: true
 ---
 

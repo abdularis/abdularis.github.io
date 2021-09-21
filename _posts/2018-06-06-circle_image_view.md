@@ -1,8 +1,12 @@
 ---
+title: Creating Custom Circle Image View for Android
+date: 2018-06-06 00:00:00 Z
+tags:
+- Android
+- Java
+- Custom-View
 layout: article
-title: "Creating Custom Circle Image View for Android"
 key: 201806061
-tags: Android Java Custom-View
 comments: true
 ---
 

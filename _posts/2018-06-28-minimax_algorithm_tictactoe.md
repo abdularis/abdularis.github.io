@@ -1,8 +1,13 @@
 ---
+title: Algoritma Minimax Pada Game Tic-Tac-Toe Android
+date: 2018-06-28 00:00:00 Z
+tags:
+- Algorithm
+- Android
+- Kotlin
+- Minimax
 layout: article
-title: "Algoritma Minimax Pada Game Tic-Tac-Toe Android"
 key: 201806281
-tags: Algorithm Android Kotlin Minimax
 comments: true
 ---
 

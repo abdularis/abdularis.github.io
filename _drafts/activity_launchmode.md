@@ -1,8 +1,10 @@
 ---
+title: Android Activity Launch Mode
+date: 2021-09-21 15:25:45.392000000 Z
+tags:
+- Android
 layout: article
-title: "Android Activity Launch Mode"
 key: 
-tags: Android
 comments: true
 ---
 
