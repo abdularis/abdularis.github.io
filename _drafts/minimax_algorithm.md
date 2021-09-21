@@ -1,6 +1,6 @@
 ---
 title: Algoritma Minimax Pada Game Tic-Tac-Toe
-date: 2021-09-21 15:25:45.474000000 Z
+date: 2021-09-21 15:25:45 Z
 tags:
 - Algorithm
 layout: article

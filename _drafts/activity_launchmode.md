@@ -1,6 +1,6 @@
 ---
 title: Android Activity Launch Mode
-date: 2021-09-21 15:25:45.392000000 Z
+date: 2021-09-21 15:25:45 Z
 tags:
 - Android
 layout: article
