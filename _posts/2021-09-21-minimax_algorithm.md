@@ -1,11 +1,11 @@
 ---
 title: Algoritma Minimax Pada Game Tic-Tac-Toe
-date: 2021-09-21 15:25:45 Z
+date: 2021-09-21 15:25:00 Z
 tags:
 - Algorithm
-layout: article
 key: 201806251
 comments: true
+layout: article
 ---
 
 ## Apa itu MiniMax
