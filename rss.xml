@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Aris's Blog]]></title><description><![CDATA[A blog about tech and stuff]]></description><link>https://abdularis.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 23 Sep 2021 09:41:15 GMT</lastBuildDate><item><title><![CDATA[Algoritma Minimax Pada Game Tic-Tac-Toe Android]]></title><description><![CDATA[Apa itu MiniMax Minimax merupakan suatu algoritma yang digunakan pada pembuatan keputusan dan game theory. khususnya zero-sum game yang…]]></description><link>https://abdularis.github.io/2018-06-28-minmax_tictactoe/</link><guid isPermaLink="false">https://abdularis.github.io/2018-06-28-minmax_tictactoe/</guid><pubDate>Thu, 28 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Apa itu MiniMax&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Aris's Blog]]></title><description><![CDATA[A blog about tech and stuff]]></description><link>https://abdularis.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Thu, 23 Sep 2021 09:46:32 GMT</lastBuildDate><item><title><![CDATA[Algoritma Minimax Pada Game Tic-Tac-Toe Android]]></title><description><![CDATA[Apa itu MiniMax Minimax merupakan suatu algoritma yang digunakan pada pembuatan keputusan dan game theory. khususnya zero-sum game yang…]]></description><link>https://abdularis.github.io/2018-06-28-minmax_tictactoe/</link><guid isPermaLink="false">https://abdularis.github.io/2018-06-28-minmax_tictactoe/</guid><pubDate>Thu, 28 Jun 2018 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Apa itu MiniMax&lt;/h2&gt;
 &lt;p&gt;Minimax merupakan suatu algoritma yang digunakan pada pembuatan keputusan dan game theory. khususnya zero-sum game yang dijalankan oleh dua pemain secara bergantian, algoritma ini mencoba untuk mencari langkah yang paling optimal untuk pemain untuk bisa memenangkan permainan, dengan asumsi bahwa lawan juga bermain secara optimal. contoh game ini seperti Tic-Tac-Toe, Backgamon, Catur dsb.&lt;/p&gt;
 &lt;!--more--&gt;
 &lt;p&gt;Pada suatu game, algoritma ini akan menganggap kedua pemain pada game yang disebut &lt;strong&gt;maximizer&lt;/strong&gt; dan &lt;strong&gt;minimizer&lt;/strong&gt;. &lt;strong&gt;maximizer&lt;/strong&gt; mencoba untuk mendapatkan nilai tertinggi, sementara &lt;strong&gt;minimizer&lt;/strong&gt; sebaliknya mendapatkan nilai yang terendah untuk mengimbangi &lt;strong&gt;maximizer&lt;/strong&gt;.&lt;/p&gt;
@@ -69,7 +69,7 @@
         decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;{:.center}&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Pada game state seperti node root diatas maka &lt;strong&gt;X&lt;/strong&gt; akan memiliki 3 kemungkinan langkah yang dapat diambil karena &lt;strong&gt;X&lt;/strong&gt; adalah &lt;strong&gt;maximizer&lt;/strong&gt; maka dua state pertama yang menghasilkan end/terminal state yang menjadikan &lt;strong&gt;X&lt;/strong&gt; menang akan dipilih (salah satu).&lt;/li&gt;
 &lt;li&gt;Tetapi jika asumsi &lt;strong&gt;X&lt;/strong&gt; memilih langkah ketiga maka dia tidak akan memenangkan game pada saat itu dan gilirian selanjutnya adalah &lt;strong&gt;O&lt;/strong&gt;.&lt;/li&gt;
@@ -107,7 +107,7 @@
         decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;{:.center}&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;kotlin&quot;&gt;&lt;pre class=&quot;language-kotlin&quot;&gt;&lt;code class=&quot;language-kotlin&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;val&lt;/span&gt; BOARD_SIZE &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;val&lt;/span&gt; EMPTY_TOKEN &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;private&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;val&lt;/span&gt; ARRAY_SIZE &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; BOARD_SIZE &lt;span class=&quot;token operator&quot;&gt;*&lt;/span&gt; BOARD_SIZE
@@ -173,7 +173,7 @@
         decoding=&quot;async&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;{:.center}&lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;kotlin&quot;&gt;&lt;pre class=&quot;language-kotlin&quot;&gt;&lt;code class=&quot;language-kotlin&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; BoardEvaluator &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;companion&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;object&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
         &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;val&lt;/span&gt; VAL_MAX &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;100&lt;/span&gt;
