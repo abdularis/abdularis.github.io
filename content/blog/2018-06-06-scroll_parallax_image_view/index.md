@@ -13,7 +13,7 @@ Welcome back, now I want to explain about how to create a parallax effect for Im
 
 <!--more-->
 
-![preview](./screenshot_1.gif){:.rounded .center}
+![preview](./screenshot_1.gif)
 
 ## Concept
 The idea behind this is that we want to transform content of the ImageView when this ImageView is being scrolled. technically Canvas of the ImageView is transformed using some kind of transformation logic (in this case parallax) before rendered
