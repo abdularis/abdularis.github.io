@@ -32,7 +32,8 @@
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --fontFamily-serif: "Merriweather", "Georgia", Cambria, "Times New Roman",
     Times, serif;
-  --font-body: var(--fontFamily-serif);
+  --fontFamily-sans-body: "Helvetica Neue", Roboto, Arial, "Noto Sans", "Segoe UI";
+  --font-body: var(--fontFamily-sans-body);
   --font-heading: var(--fontFamily-sans);
   --fontWeight-normal: 400;
   --fontWeight-medium: 500;
